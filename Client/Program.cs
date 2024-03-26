@@ -14,9 +14,9 @@ class UDPClient
         // Tạo Client Socket
         Socket clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
 
-        Console.WriteLine("Nhập toán hạng 1:");
+        Console.WriteLine("Nhập Số Thứ Nhất:");
         double operand1 = double.Parse(Console.ReadLine());
-        Console.WriteLine("Nhập toán hạng 2:");
+        Console.WriteLine("Nhập Số Thứ Hai:");
         double operand2 = double.Parse(Console.ReadLine());
         Console.WriteLine("Nhập phép tính (+, -, *, /):");
         char operation = char.Parse(Console.ReadLine());
